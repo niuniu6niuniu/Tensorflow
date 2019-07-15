@@ -46,7 +46,7 @@ with open("/tmp/training_cleaned.csv") as csvfile:
       # Your Code here. Create list items where the first item is the text, found in row[5], and the second is the label. Note that the label is a '0' or a '4' in the text. When it's the former, make
       # your label to be 0, otherwise 1. Keep a count of the number of sentences in num_sentences
         list_item=[]
-        list_item,append(row[5])
+        list_item.append(row[5])
         this_label=row[0]
         if this_label == '0':
           list_item.append(0)
