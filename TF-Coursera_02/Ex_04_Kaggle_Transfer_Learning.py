@@ -98,7 +98,7 @@ validation_horses_dir = os.path.join(validation_dir, 'horses')
 validaiton_humans_dir = os.path.join(validation_dir, 'humans')
 
 train_horses_fnames = os.listdir(train_horses_dir)
-train_humans_fname = os.listdir(train_humans_dir)
+train_humans_fnames = os.listdir(train_humans_dir)
 validation_horses_fnames = os.listdir(validation_horses_dir)
 validation_humans_fnames = os.listdir(validation_humans_dir)
 
